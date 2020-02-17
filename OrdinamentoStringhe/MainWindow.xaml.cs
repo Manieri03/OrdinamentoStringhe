@@ -68,7 +68,7 @@ namespace OrdinamentoStringhe
                 Array.Sort(stringa);
                 for (int i = 0; i < 5; i++)
                 {
-                    sw.WriteLine($"-{i + 1}° messaggio: {stringa[i]} \n");
+                    sw.WriteLine($"-{i + 1}° messaggio:{stringa[i]} \n");
                 }
             }
 
